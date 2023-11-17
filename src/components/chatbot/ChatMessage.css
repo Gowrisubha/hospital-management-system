@@ -1,0 +1,24 @@
+.message-right {
+    background: #f2f2f2; /* Change to a light gray background */
+    border-radius: 25px;
+    padding: 0.5em 1em !important;
+    margin: 1em;
+  }
+  
+  .message-left {
+    background: #f2f2f2; /* Change to a light gray background */
+    border-radius: 25px;
+    padding: 0.5em 1em !important;
+    margin: 1em;
+  }
+  
+  .message-text {
+    font-size: 17px;
+    color: black;
+  }
+  
+  .message-icon {
+    font-size: 25px;
+    margin: 5px;
+    color: black;
+  }

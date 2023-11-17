@@ -1,0 +1,8 @@
+.circular-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Same as width for a perfect circle */
+    border-radius: 50%;
+    object-fit: cover;
+  }

@@ -1,0 +1,70 @@
+.cam_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Change to your desired background color */
+}
+
+/* Style the camera area */
+.camera {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the video container */
+.video__container {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the capture button */
+.captureButton {
+  appearance: none;
+  border: none;
+  outline: none;
+  background-color: #f9688d; /* Change to your desired button color */
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.captureButton:hover {
+  background-color:  #f9688d; /* Change to your desired hover color */
+}
+
+/* Style the result container */
+.result {
+  display: none; /* Hide initially */
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Show the result container when hasPhoto is true */
+.result.hasPhoto {
+  display: block;
+}
+
+/* Style the canvas container */
+.canvas__container {
+  width: 100%;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
